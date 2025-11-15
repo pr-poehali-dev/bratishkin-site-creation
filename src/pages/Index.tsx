@@ -69,9 +69,11 @@ const Index = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 animate-glow">
-                <Icon name="Tv" size={24} className="mr-2" />
-                Смотреть стримы
+              <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 animate-glow" asChild>
+                <a href="https://www.twitch.tv/bratishkinoff" target="_blank" rel="noopener noreferrer">
+                  <Icon name="Tv" size={24} className="mr-2" />
+                  Смотреть стримы
+                </a>
               </Button>
               <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-primary/50 hover:bg-primary/10">
                 <Icon name="Users" size={24} className="mr-2" />
@@ -212,17 +214,17 @@ const Index = () => {
               </div>
               
               <div className="flex gap-4 pt-4">
-                <Button className="bg-[#9146FF] hover:bg-[#772CE8]">
-                  <Icon name="Tv" size={20} className="mr-2" />
-                  Twitch
+                <Button className="bg-[#9146FF] hover:bg-[#772CE8]" asChild>
+                  <a href="https://www.twitch.tv/bratishkinoff" target="_blank" rel="noopener noreferrer">
+                    <Icon name="Tv" size={20} className="mr-2" />
+                    Twitch
+                  </a>
                 </Button>
-                <Button variant="outline" className="border-primary/50 hover:bg-primary/10">
-                  <Icon name="Youtube" size={20} className="mr-2" />
-                  YouTube
-                </Button>
-                <Button variant="outline" className="border-primary/50 hover:bg-primary/10">
-                  <Icon name="MessageCircle" size={20} className="mr-2" />
-                  Telegram
+                <Button variant="outline" className="border-primary/50 hover:bg-primary/10" asChild>
+                  <a href="https://t.me/nebudetgg" target="_blank" rel="noopener noreferrer">
+                    <Icon name="MessageCircle" size={20} className="mr-2" />
+                    Telegram
+                  </a>
                 </Button>
               </div>
             </div>
