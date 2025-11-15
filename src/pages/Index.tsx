@@ -26,7 +26,7 @@ const Index = () => {
     {
       id: 3,
       title: "Just Chatting - Общаемся с чатом",
-      thumbnail: "https://cdn.poehali.dev/projects/8b5a1f7f-a3b5-434c-b4d1-7d3677c172d4/files/5e9cc740-1827-4982-8ccf-37e2b8d6d66a.jpg",
+      thumbnail: "https://cdn.poehali.dev/projects/8b5a1f7f-a3b5-434c-b4d1-7d3677c172d4/files/306f7e5d-7752-4817-a612-f55aeceeb298.jpg",
       viewers: "52.1K",
       duration: "3ч 45м",
       date: "1 неделю назад",
@@ -159,7 +159,7 @@ const Index = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-3xl opacity-20 animate-glow"></div>
               <img 
-                src="https://cdn.poehali.dev/projects/8b5a1f7f-a3b5-434c-b4d1-7d3677c172d4/files/5e9cc740-1827-4982-8ccf-37e2b8d6d66a.jpg"
+                src="https://cdn.poehali.dev/projects/8b5a1f7f-a3b5-434c-b4d1-7d3677c172d4/files/26371e9f-ff59-4a5b-b7ef-a41a5edd513f.jpg"
                 alt="Братишкин"
                 className="relative rounded-2xl w-full shadow-2xl border border-primary/30"
               />
